@@ -63,7 +63,7 @@ class MeditationScreen extends StatelessWidget {
                       child: const SearchBar(),
                     ),
                     const SizedBox(
-                      height: 20,
+                      height: 40,
                     ),
                     Wrap(
                       spacing: 20,
@@ -96,7 +96,7 @@ class MeditationScreen extends StatelessWidget {
                         ),
                       ],
                     ),
-                    const SizedBox(height: 20),
+                    const SizedBox(height: 40),
                     Text(
                       "Meditation",
                       style: Theme.of(context)
@@ -135,7 +135,7 @@ class MeditationScreen extends StatelessWidget {
                                   "Basic 2",
                                   style: Theme.of(context).textTheme.subtitle1,
                                 ),
-                                const Text("Start your deepen you practice")
+                                const Text("Start your breathing practice")
                               ],
                             ),
                           ),

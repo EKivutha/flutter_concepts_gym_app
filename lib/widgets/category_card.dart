@@ -37,10 +37,11 @@ class CategoryCard extends StatelessWidget {
               child: InkWell(
                 onTap: press,
                 child: Padding(
-                  padding: const EdgeInsets.all(20.0),
+                  padding: const EdgeInsets.all(15.0),
                   child: Column(
                     children: <Widget>[
                       SvgPicture.asset(svgSrc),
+                      const Spacer(),
                       Text(
                         title,
                         style: Theme.of(context)

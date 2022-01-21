@@ -54,19 +54,21 @@ class BottomNavItem extends StatelessWidget {
   Widget build(BuildContext context) {
     return GestureDetector(
         onTap: press,
-        child: Column(
-            mainAxisAlignment: MainAxisAlignment.spaceAround,
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: <Widget>[
-              SvgPicture.asset(
-                svgSrc,
-                color: isActive ? kActiveIconColor : kTextColor,
-              ),
-              Text(
-                title,
-                style:
-                    TextStyle(color: isActive ? kActiveIconColor : kTextColor),
-              )
-            ]));
+        child: Center(
+          child: Column(
+              mainAxisAlignment: MainAxisAlignment.spaceAround,
+              crossAxisAlignment: CrossAxisAlignment.center,
+              children: <Widget>[
+                SvgPicture.asset(
+                  svgSrc,
+                  color: isActive ? kActiveIconColor : kTextColor,
+                ),
+                Text(
+                  title,
+                  style: TextStyle(
+                      color: isActive ? kActiveIconColor : kTextColor),
+                )
+              ]),
+        ));
   }
 }

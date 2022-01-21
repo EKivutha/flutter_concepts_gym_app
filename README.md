@@ -3,7 +3,7 @@
 Flutter gym application
 
 ## HomeScreen
-![Home screen](https://github.com/EKivutha/flutter_concepts_gym_app/blob/master/assets/images/Home.jpg?raw=true)
+![Home screen](https://github.com/EKivutha/flutter_concepts_gym_app/blob/master/assets/images/home.jpg?raw=true)
 
 # Meditation Screen
 ![Meditation screen ](https://github.com/EKivutha/flutter_concepts_gym_app/blob/master/assets/images/meditation.jpg?raw=true)

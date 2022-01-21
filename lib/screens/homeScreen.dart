@@ -40,7 +40,7 @@ class HomeScreen extends StatelessWidget {
                     ),
                     child: SvgPicture.asset("assets/icons/menu.svg"),
                   )),
-              SizedBox(
+              const SizedBox(
                 height: 20,
               ),
               Text("Good Morning \n Gerald",
@@ -48,9 +48,12 @@ class HomeScreen extends StatelessWidget {
                       .textTheme
                       .headline3!
                       .copyWith(fontWeight: FontWeight.w900)),
+              const SizedBox(
+                height: 30,
+              ),
               const SearchBar(),
-              SizedBox(
-                height: 20,
+              const SizedBox(
+                height: 30,
               ),
               Expanded(
                   child: GridView.count(
