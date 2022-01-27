@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:gym/data/data.dart';
 import 'package:gym/widgets/page_indicator.dart';
-import 'package:gradient_text/gradient_text.dart';
+import 'package:text_gradient/text_gradient.dart';
 
 class OnboardingScreen extends StatefulWidget {
   const OnboardingScreen({Key? key}) : super(key: key);
@@ -130,8 +130,8 @@ class _OnboardingScreenState extends State<OnboardingScreen>
             children: <Widget>[
               Opacity(
                 opacity: .10,
-                child: GradientText(
-                  page.title,
+                child: TextGradient(
+                  data: page.title,
                   gradient: LinearGradient(colors: page.titleGradient),
                   style: const TextStyle(
                       fontSize: 100.0,
@@ -141,8 +141,8 @@ class _OnboardingScreenState extends State<OnboardingScreen>
               ),
               Padding(
                 padding: const EdgeInsets.only(top: 30.0, left: 22.0),
-                child: GradientText(
-                  page.title,
+                child: TextGradient(
+                  data: page.title,
                   gradient: LinearGradient(colors: page.titleGradient),
                   style: const TextStyle(
                       fontSize: 70.0, fontFamily: "Montserrat-Black"),

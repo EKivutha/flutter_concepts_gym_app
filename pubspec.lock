@@ -81,13 +81,6 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
-  gradient_text:
-    dependency: "direct main"
-    description:
-      name: gradient_text
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "1.0.2"
   lints:
     dependency: transitive
     description:
@@ -184,6 +177,15 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "0.4.3"
+  text_gradient:
+    dependency: "direct main"
+    description:
+      path: "."
+      ref: HEAD
+      resolved-ref: "26e273b0dabc461eb2f41791e790b88a34c85487"
+      url: "https://github.com/EKivutha/text_gradient.git"
+    source: git
+    version: "1.0.0+1"
   typed_data:
     dependency: transitive
     description:
