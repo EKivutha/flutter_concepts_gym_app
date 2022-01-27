@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:gym/constants.dart';
 import 'package:gym/screens/homeScreen.dart';
 import 'package:gym/screens/meditation.dart';
+import 'package:gym/screens/onboardingScreen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -26,6 +27,6 @@ class MyApp extends StatelessWidget {
               Theme.of(context).textTheme.apply(displayColor: kTextColor),
           primarySwatch: Colors.blue,
         ),
-        home: const HomeScreen());
+        home: const OnboardingScreen());
   }
 }

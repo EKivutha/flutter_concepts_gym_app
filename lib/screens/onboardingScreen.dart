@@ -96,7 +96,9 @@ class _OnboardingScreenState extends State<OnboardingScreen>
                             Icons.arrow_forward,
                             color: Colors.black,
                           ),
-                          onPressed: () {},
+                          onPressed: () {
+                            Navigator.pushNamed(context, '/home');
+                          },
                         )
                       : Container()),
             )
