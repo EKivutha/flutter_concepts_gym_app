@@ -16,7 +16,8 @@ class MyApp extends StatelessWidget {
         debugShowCheckedModeBanner: false,
         title: 'Gym',
         routes: <String, WidgetBuilder>{
-          '/meditation': (BuildContext context) => const MeditationScreen()
+          '/meditation': (BuildContext context) => const MeditationScreen(),
+          '/home': (BuildContext context) => const HomeScreen()
         },
         theme: ThemeData(
           fontFamily: "Cairo",
